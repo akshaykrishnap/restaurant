@@ -5,6 +5,11 @@
     font-family: 'Inter', sans-serif;
 font-family: 'Noto Sans', sans-serif;
 }
+#container{
+    width: 100%;
+    height: 100vh; 
+    position: relative;   
+    }
 
 .offcanvas-title {
     color: aliceblue;
@@ -12,11 +17,7 @@ font-family: 'Noto Sans', sans-serif;
 .offcanvas-title:hover{
     color: rgb(113, 105, 105);
 }
-#container{
-    width: 100%;
-    height: 100vh;
-    position: relative;
-}
+
 .logo{ 
     display: inline;
  font-weight: 900;
@@ -45,7 +46,7 @@ font-family: 'Noto Sans', sans-serif;
     font-weight: bolder;
 }
 .links:hover{
-    color: rgb(141, 12, 12);
+    color: rgb(229, 204, 18);
 }
 #esa2{
     margin: 15px;
@@ -83,10 +84,16 @@ font-family: 'Noto Sans', sans-serif;
     text-align: justify;
     font-weight: bold;
 }
+/* bookings */
+
 #booking1{
     margin: 25px;
     padding: 50px;
 }
+.bks{
+    text-decoration: none;
+}
+
 .BOOKINGS{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -97,35 +104,102 @@ font-family: 'Noto Sans', sans-serif;
     font-weight: bolder;
 }
 .BOOK:hover{
-    color: #ebc5c5;
+    color: #e85656;
 }
 footer p{
     text-align: center;
     margin-top: 50px;
     font-weight: bolder;
 }
-.conts{
-    margin-top: 20px;
+    /* contacts */
+#contacts{   
+    width: 100%;
+    margin: 1% 8% 0px 0%;
+   
 }
-.iconset{
+.icon_sets{ text-decoration: none;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 3rem;
+    margin-top: 2rem;
 }
-.icon{
-    width: 50px;
-    height: 50px;
-    border: 1px solid black;
-border-radius: 50%;
+.icon{ 
+    border-radius: 50%; 
+    width: 35px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    margin: 0px 10px;
+
+}
+
+.icon:hover i{  
+    width: 35px;
+    height: 30px;  
+    border-radius: 50%;
+font-size: 30px;
 display: flex;
-justify-content: center;
-align-items: center;
+
+    justify-content: center;
+   animation: shake 0.75s;
 }
-.icon:hover{
-    background-color: azure;
+.icon:hover{  
+   background-image: linear-gradient(rgb(251, 251, 251), rgb(255, 247, 10));
 }
-.icon i{
-    color: black;
-    font-size: 2rem;
+
+/* home page */
+.cc1{ margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 50px;
+    background-color: #f0d464;
+    position: relative;
 }
+.imgcrw{
+    width: 600px;
+    height: 300px;
+
+}
+#crew-2{
+    margin-top: 15px;
+padding: 5px;
+}
+.crew1{ 
+    padding: 15px;
+    width: 100%;
+    height: 4hv;   
+    text-align: justify;
+    font-weight: bolder;
+}
+.cwrs1{
+    width: 100%;
+    margin: 10px;
+    padding: 15px;
+  
+}
+.cwrs2{
+    width: 80%;
+    height: 500px;   
+}
+.cres1{
+    width: 100%;
+    height: 500px;
+}
+
+/* menu */
+.cc2{
+  margin: 0px;
+   width: 100%;
+    height: 50px;
+background-color: #fbd011;
+    position: relative;
+}
+.m1{
+    width: 100%;
+    height: 150px;
+}
+.card{
+    margin: 10px;
+}
+
+/* media query */
